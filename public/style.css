@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  .background-wrapper {
+    background: rgb(49, 49, 49);
+    min-height: 100vh; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .form-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-text {
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  .form-image img {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    padding: 1rem;
+  }
+  
+  .bullet-point {
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    margin: 10px 0;
+  }
+  
+  .bullet-point img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  form {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .label-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.8rem;
+    display: none;
+  }
+  
+  input[type="email"] {
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  button {
+    background-color: #242424;
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 8px;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: orange;
+  }
+  
+  #success-msg img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .success-message {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 15px;
+    margin-top: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .success-message.hidden {
+    display: none;
+  }
+  
+  .email-field {
+    position: relative;
+  }
+  
+  input[type="email"] {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .error-message {
+    position: absolute;
+    top: -1.2rem;
+    right: 0;
+    color: red;
+    font-size: 0.9rem;
+  }
+  
+  button {
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    padding: 0.9rem;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: orange;
+  }
+  
+  #success-msg img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+
+  .success-message {
+    max-width: 300px;
+    margin: 4rem auto;
+    text-align: left;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
